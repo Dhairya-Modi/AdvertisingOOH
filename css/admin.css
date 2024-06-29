@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #5AB2FF;
+}
+.btn-secondary {
+    border-style: none;
+    background-color: #0f9465;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-color: white;
+    border-radius: 0.5rem;
+    /* font-weight: bold; */
+}
+
+.btn-secondary:hover {
+    background-color: #10ab75;
+}
+.btn-danger {
+    background-color: #f85a67;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    /* font-weight: bold; */
+}
+
+.btn-danger:hover {
+    background-color: #f76e7a;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    background-color: #ff4757;
+    color: white;
+}
+
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+.main-content {
+    /* margin: 1% 0; */
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    float: left;
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+.success {
+    color: #0f9465;
+}
+
+.error {
+    color: #ff4757;
+}
+
+
+.login {
+    border: 4px solid grey;
+    border-radius: 2rem;
+    max-width: 90%;
+    /* Adjusted to ensure it doesn't exceed screen size */
+    width: 20%;
+    /* Keeps it responsive */
+    margin: 10% auto;
+    padding: 3%;
+    background-color: #ffffff;
+    color: white;
+    background-image: url("../images/black3.avif");
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+}
+
+.login input {
+    font-size: 16px;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 2px solid grey;
+    width: 100%;
+    /* Make input boxes full width of the parent */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
+    padding: 0.5rem;
+    /* Add padding for better appearance */
+}
+
+@media (max-width: 768px) {
+    .login {
+        width: 80%;
+        /* More width on smaller screens */
+        margin: 20% auto;
+        padding: 5%;
+    }
+
+    .login input {
+        font-size: 14px;
+        /* Smaller font size on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        width: 90%;
+        /* Even more width on very small screens */
+        margin: 30% auto;
+        padding: 5%;
+    }
+
+    .login input {
+        font-size: 12px;
+        /* Smaller font size on very small screens */
+    }
+}
